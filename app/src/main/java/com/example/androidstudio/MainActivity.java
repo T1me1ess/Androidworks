@@ -9,6 +9,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import cn.edu.qlu.sn201811060006.R;
+
 public class MainActivity extends AppCompatActivity {
     private TextView tv1;
     private EditText edt1,edt2;

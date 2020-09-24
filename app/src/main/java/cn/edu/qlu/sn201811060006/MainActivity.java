@@ -9,7 +9,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.androidstudio.R;
 
 public class MainActivity extends AppCompatActivity {
     private TextView tv1;
