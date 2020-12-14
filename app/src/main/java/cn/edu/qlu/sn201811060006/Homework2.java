@@ -7,17 +7,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Toast;
 
-public class Ch3Activity3 extends Activity {
+public class Homework2 extends Activity {
     /** Called when the activity is first created. */
     private CheckBox ch1,ch2,ch3,ch4,ch5;
     private Button mybutton;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_ch3_3);
+        setContentView(R.layout.layout_homewor2);
 
         mybutton = (Button)findViewById(R.id.mybutton);
         ch1 = (CheckBox)findViewById(R.id.check1);

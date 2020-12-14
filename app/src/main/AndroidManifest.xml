@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="cn.edu.qlu.sn201811060006">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="王星洋"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeMainActivity" android:exported="true"></activity>
-        <activity android:name=".MainActivity" android:exported="true">
-
+        <activity
+            android:name=".HomeMainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".Homework2" />
+        <activity
+            android:name=".Homework1" />
+        <activity
+            android:name=".Homework3"/>
+        <activity
+            android:name=".Homework4" />
+        <activity
+            android:name=".Homework5" />
+        <activity
+            android:name=".Homework6">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

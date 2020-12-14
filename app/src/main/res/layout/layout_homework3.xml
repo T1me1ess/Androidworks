@@ -3,35 +3,39 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/test_tv"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="开始"
+        android:onClick="begin"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/test_question"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+    android:layout_width="match_parent"
+    android:id="@+id/test_rg"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:id="@+id/test_rb1"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:id="@+id/test_rb2"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:id="@+id/test_rb3"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:id="@+id/test_rb4"
+        android:layout_height="wrap_content" />
+</RadioGroup>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:text="加减乘除"
-        android:id="@+id/homework_btn1"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="响应事件"
-        android:id="@+id/homework_btn2"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="答  题"
-        android:id="@+id/homework_btn3"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="商品列表"
-        android:id="@+id/homework_btn4"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="计算器"
-        android:id="@+id/homework_btn5"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="SQLite"
-        android:id="@+id/homework_btn6"
-        android:layout_height="wrap_content" />
 </LinearLayout>
